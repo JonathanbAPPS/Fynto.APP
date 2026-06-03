@@ -1,1 +1,1 @@
-# lucra.APP
+# Fynto.APP
