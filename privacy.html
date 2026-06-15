@@ -28,7 +28,7 @@
 <body>
 
 <h1>Privacy Policy – Fynto</h1>
-<p><strong>Effective Date:</strong> June 9, 2026</p>
+<p><strong>Effective Date:</strong> June 15, 2026</p>
 
 <p>Fynto (hereinafter referred to as "the App") is committed to protecting the privacy and security of its users in accordance with the General Data Protection Regulation (GDPR) and applicable data protection laws. This Privacy Policy outlines the types of information the App processes, how it is used, and your rights as a user.</p>
 
@@ -46,6 +46,8 @@
     <li>No location data, contacts, or device identifiers are collected or tracked.</li>
     <li>The App does not employ third-party analytics, advertising SDKs, or tracking technologies.</li>
     <li>Camera access is used solely for the optional, on-device receipt-scanning feature described in Section 5. Photos are never stored or transmitted.</li>
+    <li>The optional "Frag Fynto" (Ask Fynto) assistant runs entirely on your device and transmits nothing (see Section 6).</li>
+    <li>Data export and import are performed locally; any backup file you create is saved only to a location you choose and is never uploaded by the App (see Section 9).</li>
     <li>During initial setup, the App optionally asks for your first name for personalization purposes. This name is stored solely on your device and never transmitted.</li>
 </ul>
 
@@ -91,47 +93,68 @@
 
 <hr>
 
-<h2>6. Siri and App Intents</h2>
+<h2>6. Frag Fynto – On-Device Money Assistant</h2>
+<p>Fynto includes an <strong>optional</strong> in-app assistant called "Frag Fynto" (Ask Fynto), which lets you ask questions about your finances and perform quick actions through a chat. This feature is designed to be fully private:</p>
+<ul>
+    <li>On devices that support Apple Intelligence, the assistant uses Apple's <strong>on-device</strong> Foundation Models framework to understand your questions. On other devices, a built-in deterministic engine answers using only your local data. In both cases, processing happens <strong>entirely on your device</strong>.</li>
+    <li>Your questions, the assistant's answers, and your financial data are <strong>never</strong> sent to any server, cloud service, Apple, or third party.</li>
+    <li>The conversation is not stored or transmitted; it exists only temporarily in memory while the assistant is open and is discarded afterwards.</li>
+    <li>Any action the assistant proposes (for example, logging an expense or moving money to savings) is shown to you for explicit confirmation first and is written only to your local on-device storage.</li>
+</ul>
+
+<hr>
+
+<h2>7. Siri and App Intents</h2>
 <p>Fynto supports Siri integration via Apple's App Intents framework. This allows you to log expenses and savings using voice commands. Any data processed through Siri is handled in accordance with <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. Fynto itself does not transmit any data resulting from Siri interactions to external servers.</p>
 
 <hr>
 
-<h2>7. Home Screen and Lock Screen Widgets</h2>
+<h2>8. Home Screen and Lock Screen Widgets</h2>
 <p>Fynto offers Home Screen and Lock Screen widgets that display your budget and key figures at a glance. Widgets read your existing data directly from your device; this information is shared only locally between the App and its widgets through a private app group on your device. No widget data is transmitted off the device.</p>
 
 <hr>
 
-<h2>8. Legal Basis for Processing</h2>
+<h2>9. Data Export and Import</h2>
+<p>Fynto lets you export a backup of your data and import it again — for example to move to a new device or keep a personal copy.</p>
+<ul>
+    <li>When you export, the App creates a single file (in JSON format) containing your locally stored data and passes it to the standard iOS share/save dialog. <strong>You</strong> choose where it is saved (for example Files, iCloud Drive, or AirDrop). The App itself does not upload or transmit this file; what happens to the file afterwards is under your control and governed by the destination you select.</li>
+    <li>When you import, the file you select is read <strong>on your device</strong> and merged into your local data. Imported entries are added or updated; nothing is deleted. The file is processed only on your device.</li>
+    <li>Because this gives you full access to, and a portable copy of, your data, it also supports your data-portability rights (see Section 11).</li>
+</ul>
+
+<hr>
+
+<h2>10. Legal Basis for Processing</h2>
 <p>Under the GDPR, Fynto's handling of local data is based on <strong>legitimate interest</strong> for the operation and enhancement of the App. No personal data is processed for advertising, marketing, or profiling purposes.</p>
 
 <hr>
 
-<h2>9. User Rights</h2>
-<p>Since Fynto does not process personal data on external systems, the rights provided under GDPR (including access, correction, deletion, restriction, and data portability) are largely inapplicable. All data can be permanently deleted by uninstalling the App. Users may contact the developer for any privacy-related inquiries.</p>
+<h2>11. User Rights</h2>
+<p>Since Fynto does not process personal data on external systems, the rights provided under GDPR (including access, correction, deletion, restriction, and data portability) are largely fulfilled directly on your device. You can access and correct your data at any time within the App, export a portable copy of it (see Section 9), and permanently delete all of it by uninstalling the App. Users may contact the developer for any privacy-related inquiries.</p>
 
 <hr>
 
-<h2>10. Data Security</h2>
-<p>All locally stored data is protected by the security mechanisms of the iOS operating system. No external transmission occurs, minimizing exposure to unauthorized access. Users are responsible for maintaining the security of their devices.</p>
+<h2>12. Data Security</h2>
+<p>All locally stored data is protected by the security mechanisms of the iOS operating system, including file protection of the App's data store. No external transmission occurs, minimizing exposure to unauthorized access. Any backup file you export is protected according to the destination you choose. Users are responsible for maintaining the security of their devices and of any exported backups.</p>
 
 <hr>
 
-<h2>11. Data Sharing and Third Parties</h2>
+<h2>13. Data Sharing and Third Parties</h2>
 <p>Fynto does not sell, rent, or trade any user data. No personal information is shared with third parties, except when legally required by authorities or in cases to protect the rights of the App or its users.</p>
 
 <hr>
 
-<h2>12. Children's Privacy</h2>
+<h2>14. Children's Privacy</h2>
 <p>Fynto does not knowingly collect or process personal data from children. Since no data is transmitted externally, the App is safe for use by minors under the supervision of a parent or guardian.</p>
 
 <hr>
 
-<h2>13. Changes to this Privacy Policy</h2>
+<h2>15. Changes to this Privacy Policy</h2>
 <p>This Privacy Policy may be updated to reflect changes in the App's functionality or legal requirements. The current version will always be available on this page. Continued use of Fynto constitutes acceptance of the updated Privacy Policy.</p>
 
 <hr>
 
-<h2>14. Contact Information</h2>
+<h2>16. Contact Information</h2>
 <p>For questions regarding this Privacy Policy or data practices, please contact:</p>
 <p>Email: <a href="mailto:lucra.app.support@gmail.com">lucra.app.support@gmail.com</a></p>
 
@@ -139,7 +162,7 @@
 <hr>
 
 <h1>Datenschutzerklärung – Fynto</h1>
-<p><strong>Gültig ab:</strong> 9. Juni 2026</p>
+<p><strong>Gültig ab:</strong> 15. Juni 2026</p>
 
 <p>Fynto (nachfolgend „die App") verpflichtet sich zum Schutz der Privatsphäre und Sicherheit seiner Nutzer gemäß der Datenschutz-Grundverordnung (DSGVO) und den geltenden Datenschutzgesetzen. Diese Datenschutzerklärung beschreibt, welche Informationen die App verarbeitet, wie sie verwendet werden und welche Rechte Nutzer haben.</p>
 
@@ -157,6 +180,8 @@
     <li>Es werden keine Standortdaten, Kontakte oder Gerätekennungen erhoben oder verfolgt.</li>
     <li>Die App verwendet keine Analyse-Tools, Werbe-SDKs oder Tracking-Technologien von Drittanbietern.</li>
     <li>Der Kamerazugriff wird ausschließlich für die optionale, vollständig auf dem Gerät ausgeführte Beleg-Scan-Funktion gemäß Abschnitt 5 verwendet. Fotos werden niemals gespeichert oder übertragen.</li>
+    <li>Der optionale Assistent „Frag Fynto" läuft vollständig auf Ihrem Gerät und überträgt nichts (siehe Abschnitt 6).</li>
+    <li>Daten-Export und -Import erfolgen lokal; eine von Ihnen erstellte Backup-Datei wird nur an einem von Ihnen gewählten Ort gespeichert und niemals von der App hochgeladen (siehe Abschnitt 9).</li>
     <li>Beim erstmaligen Einrichten fragt die App optional nach Ihrem Vornamen zur Personalisierung. Dieser Name wird ausschließlich auf Ihrem Gerät gespeichert und niemals übertragen.</li>
 </ul>
 
@@ -202,47 +227,68 @@
 
 <hr>
 
-<h2>6. Siri und App Intents</h2>
+<h2>6. Frag Fynto – Geldassistent auf dem Gerät</h2>
+<p>Fynto enthält einen <strong>optionalen</strong> In-App-Assistenten namens „Frag Fynto", mit dem Sie Fragen zu Ihren Finanzen stellen und schnelle Aktionen per Chat ausführen können. Diese Funktion ist vollständig privat ausgelegt:</p>
+<ul>
+    <li>Auf Geräten, die Apple Intelligence unterstützen, nutzt der Assistent Apples <strong>on-device</strong> Foundation-Models-Framework, um Ihre Fragen zu verstehen. Auf anderen Geräten beantwortet eine integrierte, deterministische Engine Ihre Anfragen ausschließlich anhand Ihrer lokalen Daten. In beiden Fällen erfolgt die Verarbeitung <strong>vollständig auf Ihrem Gerät</strong>.</li>
+    <li>Ihre Fragen, die Antworten des Assistenten und Ihre Finanzdaten werden <strong>niemals</strong> an einen Server, Cloud-Dienst, an Apple oder an Dritte gesendet.</li>
+    <li>Der Gesprächsverlauf wird nicht gespeichert oder übertragen; er besteht nur vorübergehend im Arbeitsspeicher, solange der Assistent geöffnet ist, und wird danach verworfen.</li>
+    <li>Jede vom Assistenten vorgeschlagene Aktion (z. B. eine Ausgabe buchen oder Geld ins Sparen verschieben) wird Ihnen zuerst zur ausdrücklichen Bestätigung angezeigt und nur in Ihren lokalen Gerätespeicher geschrieben.</li>
+</ul>
+
+<hr>
+
+<h2>7. Siri und App Intents</h2>
 <p>Fynto unterstützt Siri über Apples App-Intents-Framework. Dadurch können Ausgaben und Ersparnisse per Sprachbefehl erfasst werden. Alle durch Siri verarbeiteten Daten unterliegen der <a href="https://www.apple.com/de/legal/privacy/">Datenschutzrichtlinie von Apple</a>. Fynto selbst überträgt keine aus Siri-Interaktionen resultierenden Daten an externe Server.</p>
 
 <hr>
 
-<h2>7. Home-Screen- und Lock-Screen-Widgets</h2>
+<h2>8. Home-Screen- und Lock-Screen-Widgets</h2>
 <p>Fynto bietet Home-Screen- und Lock-Screen-Widgets, die Ihr Budget und wichtige Kennzahlen auf einen Blick anzeigen. Widgets lesen Ihre vorhandenen Daten direkt von Ihrem Gerät; diese Informationen werden ausschließlich lokal zwischen der App und ihren Widgets über eine private App-Gruppe auf Ihrem Gerät geteilt. Es werden keine Widget-Daten vom Gerät übertragen.</p>
 
 <hr>
 
-<h2>8. Rechtsgrundlage der Verarbeitung</h2>
+<h2>9. Daten-Export und -Import</h2>
+<p>Mit Fynto können Sie ein Backup Ihrer Daten exportieren und wieder importieren — etwa um auf ein neues Gerät umzuziehen oder eine persönliche Kopie aufzubewahren.</p>
+<ul>
+    <li>Beim Export erstellt die App eine einzelne Datei (im JSON-Format) mit Ihren lokal gespeicherten Daten und übergibt sie dem Standard-Teilen-/Speichern-Dialog von iOS. <strong>Sie</strong> wählen, wo sie gespeichert wird (z. B. Dateien, iCloud Drive oder AirDrop). Die App selbst lädt diese Datei nicht hoch und überträgt sie nicht; was danach mit der Datei geschieht, liegt in Ihrer Kontrolle und richtet sich nach dem von Ihnen gewählten Ziel.</li>
+    <li>Beim Import wird die von Ihnen gewählte Datei <strong>auf Ihrem Gerät</strong> gelesen und mit Ihren lokalen Daten zusammengeführt. Importierte Einträge werden hinzugefügt oder aktualisiert; es wird nichts gelöscht. Die Datei wird ausschließlich auf Ihrem Gerät verarbeitet.</li>
+    <li>Da Ihnen dies vollen Zugriff auf eine übertragbare Kopie Ihrer Daten gibt, unterstützt es auch Ihr Recht auf Datenübertragbarkeit (siehe Abschnitt 11).</li>
+</ul>
+
+<hr>
+
+<h2>10. Rechtsgrundlage der Verarbeitung</h2>
 <p>Im Sinne der DSGVO basiert die lokale Datenverarbeitung durch Fynto auf dem <strong>berechtigten Interesse</strong> am Betrieb und der Verbesserung der App. Es werden keine personenbezogenen Daten zu Werbe-, Marketing- oder Profilierungszwecken verarbeitet.</p>
 
 <hr>
 
-<h2>9. Nutzerrechte</h2>
-<p>Da Fynto keine personenbezogenen Daten auf externen Systemen verarbeitet, sind die nach DSGVO vorgesehenen Rechte (Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit) weitgehend nicht anwendbar. Alle Daten können durch Deinstallation der App dauerhaft gelöscht werden. Nutzer können sich mit datenschutzbezogenen Anfragen an den Entwickler wenden.</p>
+<h2>11. Nutzerrechte</h2>
+<p>Da Fynto keine personenbezogenen Daten auf externen Systemen verarbeitet, werden die nach DSGVO vorgesehenen Rechte (Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit) weitgehend direkt auf Ihrem Gerät erfüllt. Sie können Ihre Daten jederzeit in der App einsehen und korrigieren, eine übertragbare Kopie exportieren (siehe Abschnitt 9) und sämtliche Daten durch Deinstallation der App dauerhaft löschen. Nutzer können sich mit datenschutzbezogenen Anfragen an den Entwickler wenden.</p>
 
 <hr>
 
-<h2>10. Datensicherheit</h2>
-<p>Alle lokal gespeicherten Daten sind durch die Sicherheitsmechanismen des iOS-Betriebssystems geschützt. Da keine externe Übertragung stattfindet, ist das Risiko unbefugten Zugriffs minimiert. Nutzer sind für die Sicherheit ihrer eigenen Geräte verantwortlich.</p>
+<h2>12. Datensicherheit</h2>
+<p>Alle lokal gespeicherten Daten sind durch die Sicherheitsmechanismen des iOS-Betriebssystems geschützt, einschließlich des Dateischutzes des Datenspeichers der App. Da keine externe Übertragung stattfindet, ist das Risiko unbefugten Zugriffs minimiert. Eine von Ihnen exportierte Backup-Datei wird entsprechend dem von Ihnen gewählten Ziel geschützt. Nutzer sind für die Sicherheit ihrer eigenen Geräte und etwaiger exportierter Backups verantwortlich.</p>
 
 <hr>
 
-<h2>11. Datenweitergabe und Dritte</h2>
+<h2>13. Datenweitergabe und Dritte</h2>
 <p>Fynto verkauft, vermietet oder handelt keine Nutzerdaten. Es werden keine personenbezogenen Informationen an Dritte weitergegeben, außer wenn dies gesetzlich vorgeschrieben ist oder zum Schutz der Rechte der App oder ihrer Nutzer erforderlich ist.</p>
 
 <hr>
 
-<h2>12. Datenschutz für Kinder</h2>
+<h2>14. Datenschutz für Kinder</h2>
 <p>Fynto erhebt oder verarbeitet wissentlich keine personenbezogenen Daten von Kindern. Da keine Daten extern übertragen werden, ist die App unter Aufsicht eines Elternteils oder Erziehungsberechtigten auch für Minderjährige geeignet.</p>
 
 <hr>
 
-<h2>13. Änderungen dieser Datenschutzerklärung</h2>
+<h2>15. Änderungen dieser Datenschutzerklärung</h2>
 <p>Diese Datenschutzerklärung kann aktualisiert werden, um Änderungen in der App-Funktionalität oder rechtliche Anforderungen widerzuspiegeln. Die jeweils aktuelle Version ist stets auf dieser Seite verfügbar. Die fortgesetzte Nutzung von Fynto gilt als Zustimmung zur aktualisierten Datenschutzerklärung.</p>
 
 <hr>
 
-<h2>14. Kontakt</h2>
+<h2>16. Kontakt</h2>
 <p>Bei Fragen zu dieser Datenschutzerklärung oder zu Datenpraktiken wenden Sie sich bitte an:</p>
 <p>E-Mail: <a href="mailto:lucra.app.support@gmail.com">lucra.app.support@gmail.com</a></p>
 
